@@ -40,7 +40,7 @@ function join_nums(numbers){
 
 function main() {
   numbers = [];
-  numbers_length = 5;
+  numbers_length = 2;
   for(var i=0;i<numbers_length;i++){
     number = getRandomInt(-100, 100);
     numbers[i] = number;

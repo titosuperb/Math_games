@@ -27,7 +27,7 @@ function refresh() {
 
 function main() {
   numbers = [];
-  for(var i=0;i<10;i++){
+  for(var i=0;i<3;i++){
     number = getRandomInt(1, 100);
     numbers[i] = number;
   }
