@@ -23,7 +23,7 @@ function refresh() {
 
 function main() {
   numbers = [];
-  numbers[0] = getRandomInt(1, 100);
+  numbers[0] = getRandomInt(1, 1000);
   numbers[1] = getRandomInt(1, numbers[0]);
 
   document.getElementById("numbers").innerHTML = numbers[0] + "-" + numbers[1] ;
